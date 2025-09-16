@@ -10,7 +10,7 @@
     <field name="name">estate.property.list</field>
     <field name="model">estate.property</field>
     <field name="arch" type="xml">
-      <list string="Properties">
+      <tree string="Properties">
         <field name="name" string="Title"/>
         <field name="postcode"/>
         <field name="bedrooms"/>
@@ -18,7 +18,7 @@
         <field name="expected_price"/>
         <field name="selling_price"/>
         <field name="date_availability" string="Available From"/>
-      </list>
+      </tree>
     </field>
   </record>
 
