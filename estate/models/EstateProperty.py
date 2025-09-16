@@ -1,10 +1,10 @@
-from odoo import models
+from odoo import fields, models
 
-class EstatePropertyModel(models.Model):
+class EstateProperty(models.Model):
   _name = "estate.property"
   _description = "Estate Property"
 
-  name = fields.Char()
+  name = fields.Char(required=True)
   description = fields.Text()
   postcode = field.Char()
   date_availability = fields.Date()
