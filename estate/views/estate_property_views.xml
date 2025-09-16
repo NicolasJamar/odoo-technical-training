@@ -11,13 +11,13 @@
     <field name="model">estate.property</field>
     <field name="arch" type="xml">
       <list string="Properties">
-        <field name="name"/>
+        <field name="name" string="Title"/>
         <field name="postcode"/>
         <field name="bedrooms"/>
-        <field name="living_area"/>
+        <field name="living_area" string="Living Area (sqm)"/>
         <field name="expected_price"/>
         <field name="selling_price"/>
-        <field name="date_availability"/>
+        <field name="date_availability" string="Available From"/>
       </list>
     </field>
   </record>
