@@ -1,4 +1,5 @@
 from odoo import models
 
 class EstatePropertyModel(models.Model):
-  _name = "estate_property"
+  _name = "estate.property"
+  _description = "Estate Property"
