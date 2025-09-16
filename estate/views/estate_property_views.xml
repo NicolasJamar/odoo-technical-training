@@ -61,7 +61,7 @@
   </record>
 
   <record id="estate_property_search" model="ir.ui.view">
-    <field name="name">estate.property.form</field>
+    <field name="name">estate.property.search</field>
     <field name="model">estate.property</field>
     <field name="arch" type="xml">
       <search string="Properties">
