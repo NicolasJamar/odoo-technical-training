@@ -71,7 +71,7 @@
         <field name="bedrooms" string="Bedrooms"/>
         <field name="living_area" string="Living Area (sqm)"/>
         <separator/>
-        <filter name="available" string="Available" domain="[('state', 'in', ['new', 'offer_received])]"/>
+        <filter name="available" string="Available" domain="[('state', 'in', ['new', 'offer_received'])]"/>
         <group expand="1" string="Group by">
           <filter name="postcode" string="Postcode" context="{'group_by':'postcode'}"/>
         </group>
