@@ -57,15 +57,13 @@
               </group>
             </page>
             <page string="Offers">
-              <group>
                 <field name="offer_ids">
-                  <tree string="Offers">
+                  <list string="Offers">
                     <field name="price" string="Offer Price"/>
                     <field name="partner_id" string="Partner"/>
                     <field name="status"/>
-                  </tree>
+                  </list>
                 </field>
-              </group>
             </page>
             <page string="Humans">
               <group>
