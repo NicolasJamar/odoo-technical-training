@@ -59,13 +59,11 @@
               </group>
             </page>
             <page string="Offers">
-              <field name="offer_ids">
-                <tree string="Offers">
-                  <field name="price" string="Offer Price"/>
-                  <field name="partner_id" string="Partner"/>
-                  <field name="status"/>
-                </tree>
-              </field>
+              <group>
+                <field name="price" string="Offer Price"/>
+                <field name="partner_id" string="Partner"/>
+                <field name="status"/>
+              </group>
             </page>
             <page string="Humans">
               <group>
