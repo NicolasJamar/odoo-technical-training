@@ -60,9 +60,7 @@
             </page>
             <page string="Offers">
               <group>
-                <field name="property_offer_price" string="Offer Price"/>
-                <field name="partner_id" string="Partner"/>
-                <field name="property_offer_status"/>
+                <field name="offer_ids"/>
               </group>
             </page>
             <page string="Humans">
