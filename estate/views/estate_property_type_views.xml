@@ -16,10 +16,8 @@
         <field name="date_availability" string="Available From"/>
         <field name="expected_price"/>
         <field name="selling_price"/>
-        <group>
           <field name="user_id"/>
           <field name="buyer_id"/>
-        </group>
       </list>
     </field>
   </record>
