@@ -55,6 +55,12 @@
                 </group>
               </group>
             </page>
+            <page string="Personnel">
+              <group>
+                <field name="user_id"/>
+                <field name="buyer_id"/>
+              </group>
+            </page>
           </notebook>
         </sheet>
       </form>
